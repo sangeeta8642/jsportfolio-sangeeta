@@ -45,7 +45,7 @@ const Home = ({ name, title }) => {
             style={{
               height: "3rem",
               width: "3rem",
-             
+
               transform: "3s",
             }}
             alt={imageAltText}
