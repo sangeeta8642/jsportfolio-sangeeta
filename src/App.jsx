@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+import Education from "./Components/Education";
 
 /**
  * This object represents your information. The project is set so that you
@@ -24,12 +25,12 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  name: "Sangeeta Peragani",
+  title: "Web Designer & Full stack web developer",
+  email: "sangeetaperagani8642@gmail.com",
+  gitHub: "sangeeta8642",
+  instagram: "shruutiiiii._",
+  linkedIn: "sangeeta-peragani-52625a29b/",
   medium: "",
   twitter: "microsoft",
   youTube: "Code",
@@ -44,6 +45,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>

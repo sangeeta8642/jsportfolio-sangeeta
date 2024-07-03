@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg3.webp";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "To do list🎉",
+    description: "Implemented using MERN stack with react redux",
+    url: "https://mytodos-lemon.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "The Coding tutorial web app",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "It is my Last year project and one of the complex project's i developed till now. This project has been implemented using MERN stack",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "News portal using react redux",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "In this project the user can get the information about latest news ever. the news is being fetched using News API",
+    url: "https://github.com/sangeeta8642/News_now",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "My git accout",
+    description: "Here is my github account where you can see the code of all y projects.",
+    url: "https://github.com/sangeeta8642",
   },
 ];
 

@@ -4,14 +4,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
+
 html,
 body {
+  scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  transform: 3s;
 }
 
 div#main {
@@ -19,7 +22,9 @@ div#main {
   flex-direction: column;
   width: 100vw;
 }
-
+.title{
+  color: #fff;
+}
 section {
   position: relative;
   width: 100vw;
@@ -27,6 +32,52 @@ section {
 
 section.min-height {
   min-height: 100vh;
+  text-align: center;
+}
+
+.education{
+  width: 100vw;
+  /* height: 100vh; */
+  text-transform: capitalize;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1{
+  width: 50%;
+}
+
+.div2 h3{
+  font-size: 25px;
+  font-weight:600;
+}
+
+.div2 p{
+  font-weight: 500;
+}
+
+.div2{
+  width:50%;
+  height: 100%;
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.div2main{
+  display: flex;
+  flex-direction: column;
+  gap:50px
+}
+
+.educationmain{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  justify-content: center;
 }
 
 section.padding {
@@ -46,10 +97,12 @@ section img.background {
 }
 
 h1 {
+  width: 80%;
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 10rem;
   font-weight: 400;
-  line-height: 0.8;
+  color: #fff;
+  /* line-height: 0.8; */
   margin: 0;
 }
 
@@ -100,6 +153,20 @@ a {
 
 a:hover {
   color: #4e567e;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
 }
 
 .container {
